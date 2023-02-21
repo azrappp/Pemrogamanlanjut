@@ -43,6 +43,9 @@ public class Main {
         }
         System.out.println("==ANDA MENANG==");
     }
+    /**
+     * method untuk menampilkan kotak
+     */
     static void showkotak(){
         System.out.println("=====PERMAINAN KOTAK AJAIB====");
         System.out.println("Jumlah Total = 10");
@@ -54,6 +57,9 @@ public class Main {
         }
         System.out.println("******************************");
     }
+    /**
+     * method untuk menampilkan mengecek sudah menang atau belum
+     */
     private void cek(){
         //cek kolom 
         int kolombener = 0;
