@@ -39,10 +39,11 @@ public class Main {
             System.out.flush();
             main.showkotak();
             main.cek();
+            showkotak();
         }
         System.out.println("==ANDA MENANG==");
     }
-    private void showkotak(){
+    static void showkotak(){
         System.out.println("=====PERMAINAN KOTAK AJAIB====");
         System.out.println("Jumlah Total = 10");
         for (int i = 0; i < 3; i++) {
